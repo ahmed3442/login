@@ -110,11 +110,10 @@ body{
     border-radius: 20px;
     backdrop-filter: blur(40px);
     box-shadow: 0 0 30px rgba(0, 0, 0, .5);
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-   
     transition: transform .5s ease, height .4s ease;
 
 }
@@ -249,7 +248,19 @@ body{
     font-size: 1em;
     color: #fff;
     font-weight: 500;
+    display: inline-block;
+    text-align: center;
+    padding: 9px;
+    text-decoration: none;
+    transition: .2s;
 }
+
+.btn:hover {
+    background-color: #091016;
+    color: whitesmoke;
+}
+
+
 .login-register {
     font-size: .9em;
     color: #162938;
