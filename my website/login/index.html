@@ -4,138 +4,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <title>my web site</title>
 </head>
-<body>
-    <header>
-        <h2 class="logo">madrastna</h2>
-        <nav class="navigation">
-                <a class="s" href="./index.html">Home</a>
-<button class="btnLogin-popup">Login</button>
-            </nav>
-    </header>
+<body><header>
+    <h2 class="logo">madrastna</h2>
+    <nav class="navigation">
+            <a class="s" href="index.html">Home</a>
+            <a class="s" href="#services">Services</a>
+            <a class="s" href="#projects">Projects</a>
+            <a class="s" href="#contact">Contact</a>
+           <a href="index1.html"> <button class="btnLogin-popup">Login</button></a>
+        </nav>
+</header>
+<div class="img"></div>
 
-<div class="wrapper">
-  
-    <div class="form-box login">
-        <h2>Login</h2>
-        <form action="#">
-            <div class="input-box">
-
-                <span class="icon"><ion-icon name="mail"></ion-icon></span>
-
-                <input type="email" required>
-                <label>Email</label>
-            </div>
-            <div class="input-box">
-
-                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
- 
-                <input type="password" required>
-                <label>password</label>
-            </div>
-            <div class="remember-forgot">
-                <label>
-                    <input type="checkbox">
-                    Remember me</label>
-                    <a href="#">Forgot Password?</a>
-            </div>
-            <button type="submit" class="btn">Login</button>
-                <div class="login-register">
-                    <p>Don't have an account?
-                        <a class="register-link" href="#">Register</a></p>
-                </div>
-        </form>
+<section class="main">
+    <div>
+        <h2>welcome to damietta prep school <br><span>let's started</span></h2>
+        <a href="#" class="main-button">let's work</a>
+        <div class="iconss">
+        <a href="https://www.facebook.com/groups/100242500057617"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    </div>
     </div>
 
+</section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="form-box register">
-        <h2>Registration</h2>
-        <form action="#">
-            <div class="input-box">
-
-                <span class="icon"><ion-icon name="person"></ion-icon></span>
-
-                <input type="text" required>
-                <label>Username</label>
+<section class="cards" id="services">
+    <h2 class="title">Services</h2>
+    <div class="content">
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-edit"></i>
             </div>
-            <div class="input-box">
-
-                <span class="icon"><ion-icon name="mail"></ion-icon></span>
-
-                <input type="email" required>
-                <label>Email</label>
+            <div class="info">
+                <h3>Script Writing</h3>
+                <p>After that reserch will be help you to study</p>
             </div>
-            <div class="input-box">
-
-                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
- 
-                <input type="password" required>
-                <label>password</label>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-video"></i>
             </div>
-            <div class="remember-forgot">
-                <label>
-                    <input type="checkbox">
-                    I agree all terns & conditions</label>
-                    
+            <div class="info">
+                <h3>Video Production</h3>
+                <p>We record ashort Videos for help you</p>
             </div>
-            <button type="submit" class="btn">Register</button>
-                <div class="login-register">
-                    <p>Alredy have an account?
-                        <a class="login-link" href="#">Login</a></p>
-                </div>
-        </form>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="info">
+                <h3>Curriculum Development</h3>
+                <p>We will be help you for that</p>
+            </div>
+        </div>
     </div>
-</div>
+</section>
 
-   <script pt src="script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<section class="projects" id="projects">
+    <h2 class="title">Projects</h2>
+    <div class="content">
+        <div class="project-card">
+            <div class="project-info">
+                <p class="project-category">All students projects will be here </p>
+                <strong class="project-title">
+                    <span>please wait for it</span>
+                    <a href="#" class="more-details">More details</a>
+                </strong>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cards contact" id="contact">
+    <h2 class="title">Let's work together</h2>
+    <div class="content">
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-phone"></i>
+            </div>
+            <div class="info">
+                <h3>Phone</h3>
+                <p>01202069805</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info">
+                <h3>Email</h3>
+                <p>madrastna@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p class="footer-title">Copyrights @ <span>Ahmed Eldars</span></p>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+</footer>
+
 </body>
-
 </html>
